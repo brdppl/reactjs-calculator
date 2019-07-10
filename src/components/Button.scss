@@ -1,0 +1,27 @@
+.btn {
+    font-size: 1.4em;
+    background: #f0f0f0;
+    border: none;
+    border-right: solid 1px #888;
+    border-bottom: solid 1px #888;
+    outline: none;
+
+    &:active {
+        background: #ccc;
+    }
+    &.double {
+        grid-column: span 2;
+    }
+    &.triple {
+        grid-column: span 3;
+    }
+
+    &.operation {
+        background: #fa8231;
+        color: #fff;
+
+        &:active {
+            background: #fa8231cc;
+        }
+    }
+}

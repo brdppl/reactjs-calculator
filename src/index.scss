@@ -1,0 +1,28 @@
+// Imports
+@import url('https://fonts.googleapis.com/css?family=Roboto:300&display=swap');
+
+// Variables
+$bg: linear-gradient(to right, #444999, #555888);
+$font: 'Roboto', sans-serif;
+
+// Presets
+body {
+    background: $bg;
+    font-family: $font;
+
+    .main-title {
+        text-align: center;
+        color: #efefef;
+    }
+}
+
+.d-flex {
+    display: flex;
+
+    &.h-center {
+        justify-content: center;
+    }
+    &.v-center {
+        align-items: center;
+    }
+}
